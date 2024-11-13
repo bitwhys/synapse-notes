@@ -1,0 +1,38 @@
+:root {
+  --ui-radius-1: calc(3px * var(--scaling) * var(--ui-radius-factor));
+  --ui-radius-2: calc(4px * var(--scaling) * var(--ui-radius-factor));
+  --ui-radius-3: calc(6px * var(--scaling) * var(--ui-radius-factor));
+  --ui-radius-4: calc(8px * var(--scaling) * var(--ui-radius-factor));
+  --ui-radius-5: calc(12px * var(--scaling) * var(--ui-radius-factor));
+  --ui-radius-6: calc(16px * var(--scaling) * var(--ui-radius-factor));
+}
+
+[data-radius='none'] {
+  --ui-radius-factor: 0;
+  --ui-radius-full: 0px;
+  --ui-radius-thumb: 0.5px;
+}
+
+[data-radius='sm'] {
+  --ui-radius-factor: 0.75;
+  --ui-radius-full: 0px;
+  --ui-radius-thumb: 0.5px;
+}
+
+[data-radius='md'] {
+  --ui-radius-factor: 1;
+  --ui-radius-full: 0px;
+  --ui-radius-thumb: 9999px;
+}
+
+[data-radius='lg'] {
+  --ui-radius-factor: 1.625;
+  --ui-radius-full: 0px;
+  --ui-radius-thumb: 9999px;
+}
+
+[data-radius='pill'] {
+  --ui-radius-factor: 1.5;
+  --ui-radius-full: 9999px;
+  --ui-radius-thumb: 9999px;
+}

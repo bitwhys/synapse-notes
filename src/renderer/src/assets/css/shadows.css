@@ -1,0 +1,170 @@
+/* Override default colors for tailwind builtin shadows */
+:root {
+  --ui-shadow-sm:	 0 1px 2px 0 var(--color-black-a4);
+  --ui-shadow-default: 0 1px 3px 0 var(--color-black-a2), 0 1px 2px -1px var(--color-black-a2);
+  --ui-shadow-md: 0 4px 6px -1px var(--color-black-a2), 0 2px 4px -2px var(--color-black-a2);
+  --ui-shadow-lg: 0 10px 15px -3px var(--color-black-a2), 0 4px 6px -4px var(--color-black-a2);
+  --ui-shadow-xl: 0 20px 25px -5px var(--color-black-a2), 0 8px 10px -6px var(--color-black-a2);
+  --ui-shadow-2xl: 0 25px 50px -12px var(--color-black-a6);
+  --ui-shadow-inner: inset 0 2px 4px 0 var(--color-black-a4);
+}
+/* prettier-ignore */
+:root {
+  /* inner */
+  --ui-shadow-1:
+    inset 0 0 0 1px var(--color-gray-a5),
+    inset 0 1.5px 2px 0 var(--color-gray-a2),
+    inset 0 1.5px 2px 0 var(--color-black-a2);
+
+  /* sm */
+  --ui-shadow-2:
+    0 0 0 1px var(--color-gray-a3),
+    0 0 0 0.5px var(--color-black-a1),
+    0 1px 1px 0 var(--color-gray-a2),
+    0 2px 1px -1px var(--color-black-a1),
+    0 1px 3px 0 var(--color-black-a1);
+
+  /* md */
+  --ui-shadow-3:
+    0 0 0 1px var(--color-gray-a3),
+    0 2px 3px -2px var(--color-gray-a3),
+    0 3px 12px -4px var(--color-black-a2),
+    0 4px 16px -8px var(--color-black-a2);
+
+  /* lg */
+  --ui-shadow-4:
+    0 0 0 1px var(--color-gray-a3),
+    0 8px 40px var(--color-black-a1),
+    0 12px 32px -16px var(--color-gray-a3);
+
+  /* xl */
+  --ui-shadow-5:
+    0 0 0 1px var(--color-gray-a3),
+    0 12px 60px var(--color-black-a3),
+    0 12px 32px -16px var(--color-gray-a5);
+
+  /* 2xl */
+  --ui-shadow-6:
+    0 0 0 1px var(--color-gray-a3),
+    0 12px 60px var(--color-black-a3),
+    0 16px 64px var(--color-gray-a2),
+    0 16px 36px -20px var(--color-gray-a7);
+}
+
+/* prettier-ignore */
+@supports (color: color-mix(in oklab, white, black)) {
+  :root {
+    --ui-shadow-1:
+      inset 0 0 0 1px var(--color-gray-a5),
+      inset 0 1.5px 2px 0 var(--color-gray-a2),
+      inset 0 1.5px 2px 0 var(--color-black-a2);
+
+    --ui-shadow-2:
+      0 0 0 1px color-mix(in oklab, var(--color-gray-a3), var(--color-gray-3) 25%),
+      0 0 0 0.5px var(--color-black-a1),
+      0 1px 1px 0 var(--color-gray-a2),
+      0 2px 1px -1px var(--color-black-a1),
+      0 1px 3px 0 var(--color-black-a1);
+
+    --ui-shadow-3:
+      0 0 0 1px color-mix(in oklab, var(--color-gray-a3), var(--color-gray-4) 25%),
+      0 2px 3px -2px var(--color-gray-a3),
+      0 3px 12px -4px var(--color-black-a2),
+      0 4px 16px -8px var(--color-black-a3);
+
+    --ui-shadow-4:
+      0 0 0 1px color-mix(in oklab, var(--color-gray-a3), var(--color-gray-3) 25%),
+      0 8px 40px var(--color-black-a1),
+      0 12px 32px -16px var(--color-gray-a3);
+
+    --ui-shadow-5:
+      0 0 0 1px color-mix(in oklab, var(--color-gray-a3), var(--color-gray-3) 25%),
+      0 12px 60px var(--color-black-a3),
+      0 12px 32px -16px var(--color-gray-a5);
+
+    --ui-shadow-6:
+      0 0 0 1px color-mix(in oklab, var(--color-gray-a3), var(--color-gray-3) 25%),
+      0 12px 60px var(--color-black-a3),
+      0 16px 64px var(--color-gray-a2),
+      0 16px 36px -20px var(--color-gray-a7);
+  }
+}
+
+/* prettier-ignore */
+[data-theme~="dark"], .dark, .dark-theme {
+  --ui-shadow-1:
+    inset 0 -1px 1px 0 var(--color-gray-a3),
+    inset 0 0 0 1px var(--color-gray-a3),
+    inset 0 3px 4px 0 var(--color-black-a5),
+    inset 0 0 0 1px var(--color-gray-a4);
+
+  --ui-shadow-2:
+    0 0 0 1px var(--color-gray-a6),
+    0 0 0 0.5px var(--color-black-a3),
+    0 1px 1px 0 var(--color-black-a6),
+    0 2px 1px -1px var(--color-black-a6),
+    0 1px 3px 0 var(--color-black-a5);
+
+  --ui-shadow-3:
+    0 0 0 1px var(--color-gray-a6),
+    0 2px 3px -2px var(--color-black-a3),
+    0 3px 8px -2px var(--color-black-a6),
+    0 4px 12px -4px var(--color-black-a7);
+
+  --ui-shadow-4:
+    0 0 0 1px var(--color-gray-a6),
+    0 8px 40px var(--color-black-a3),
+    0 12px 32px -16px var(--color-black-a5);
+
+  --ui-shadow-5:
+    0 0 0 1px var(--color-gray-a6),
+    0 12px 60px var(--color-black-a5),
+    0 12px 32px -16px var(--color-black-a7);
+
+  --ui-shadow-6:
+    0 0 0 1px var(--color-gray-a6),
+    0 12px 60px var(--color-black-a4),
+    0 16px 64px var(--color-black-a6),
+    0 16px 36px -20px var(--color-black-a11);
+}
+
+/* prettier-ignore */
+@supports (color: color-mix(in oklab, white, black)) {
+  [data-theme~="dark"], .dark, .dark-theme {
+    --ui-shadow-1:
+      inset 0 -1px 1px 0 var(--color-gray-a3),
+      inset 0 0 0 1px var(--color-gray-a3),
+      inset 0 3px 4px 0 var(--color-black-a5),
+      inset 0 0 0 1px var(--color-gray-a4);
+
+    --ui-shadow-2:
+      0 0 0 1px color-mix(in oklab, var(--color-gray-a6), var(--color-gray-6) 25%),
+      0 0 0 0.5px var(--color-black-a3),
+      0 1px 1px 0 var(--color-black-a6),
+      0 2px 1px -1px var(--color-black-a6),
+      0 1px 3px 0 var(--color-black-a5);
+
+    --ui-shadow-3:
+      0 0 0 1px color-mix(in oklab, var(--color-gray-a6), var(--color-gray-6) 25%),
+      0 2px 3px -2px var(--color-black-a3),
+      0 3px 8px -2px var(--color-black-a6),
+      0 4px 12px -4px var(--color-black-a7);
+
+    --ui-shadow-4:
+      0 0 0 1px color-mix(in oklab, var(--color-gray-a6), var(--color-gray-6) 25%),
+      0 8px 40px var(--color-black-a3),
+      0 12px 32px -16px var(--color-black-a5);
+
+    --ui-shadow-5:
+      0 0 0 1px color-mix(in oklab, var(--color-gray-a6), var(--color-gray-6) 25%),
+      0 12px 60px var(--color-black-a5),
+      0 12px 32px -16px var(--color-black-a7);
+
+    --ui-shadow-6:
+      0 0 0 1px color-mix(in oklab, var(--color-gray-a6), var(--color-gray-6) 25%),
+      0 12px 60px var(--color-black-a4),
+      0 16px 64px var(--color-black-a6),
+      0 16px 36px -20px var(--color-black-a11);
+  }
+}
+
