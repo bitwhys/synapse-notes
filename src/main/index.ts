@@ -3,13 +3,16 @@ import { join } from 'path'
 import { electronApp, optimizer, is } from '@electron-toolkit/utils'
 import icon from '../../resources/icon.png?asset'
 
+const DEFAULT_WIDTH = 900
+const DEFAULT_HEIGHT = 820
 function createWindow(): void {
   // Create the browser window.
   const mainWindow = new BrowserWindow({
-    width: 900,
-    height: 820,
+    width: DEFAULT_WIDTH,
+    height: DEFAULT_HEIGHT,
     show: false,
     autoHideMenuBar: true,
+    titleBarStyle: 'hidden',
     ...(process.platform === 'linux' ? { icon } : {}),
     webPreferences: {
       preload: join(__dirname, '../preload/index.js'),
@@ -34,6 +37,8 @@ function createWindow(): void {
     mainWindow.loadFile(join(__dirname, '../renderer/index.html'))
   }
 }
+
+app.na
 
 // This method will be called when Electron has finished
 // initialization and is ready to create browser windows.

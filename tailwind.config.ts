@@ -15,6 +15,61 @@ module.exports = {
     },
     extend: {
       colors: {
+        gray: {
+          1: 'var(--color-gray-1)',
+          2: 'var(--color-gray-2)',
+          3: 'var(--color-gray-3)',
+          4: 'var(--color-gray-4)',
+          5: 'var(--color-gray-5)',
+          6: 'var(--color-gray-6)',
+          7: 'var(--color-gray-7)',
+          8: 'var(--color-gray-8)',
+          9: 'var(--color-gray-9)',
+          10: 'var(--color-gray-10)',
+          11: 'var(--color-gray-11)',
+          12: 'var(--color-gray-12)',
+          a1: 'var(--color-gray-a1)',
+          a2: 'var(--color-gray-a2)',
+          a3: 'var(--color-gray-a3)',
+          a4: 'var(--color-gray-a4)',
+          a5: 'var(--color-gray-a5)',
+          a6: 'var(--color-gray-a6)',
+          a7: 'var(--color-gray-a7)',
+          a8: 'var(--color-gray-a8)',
+          a9: 'var(--color-gray-a9)',
+          a10: 'var(--color-gray-a10)',
+          a11: 'var(--color-gray-a11)',
+          a12: 'var(--color-gray-a12)'
+        },
+        accent: {
+          1: 'var(--color-accent-1)',
+          2: 'var(--color-accent-2)',
+          3: 'var(--color-accent-3)',
+          4: 'var(--color-accent-4)',
+          5: 'var(--color-accent-5)',
+          6: 'var(--color-accent-6)',
+          7: 'var(--color-accent-7)',
+          8: 'var(--color-accent-8)',
+          9: 'var(--color-accent-9)',
+          10: 'var(--color-accent-10)',
+          11: 'var(--color-accent-11)',
+          12: 'var(--color-accent-12)',
+          a1: 'var(--color-accent-a1)',
+          a2: 'var(--color-accent-a2)',
+          a3: 'var(--color-accent-a3)',
+          a4: 'var(--color-accent-a4)',
+          a5: 'var(--color-accent-a5)',
+          a6: 'var(--color-accent-a6)',
+          a7: 'var(--color-accent-a7)',
+          a8: 'var(--color-accent-a8)',
+          a9: 'var(--color-accent-a9)',
+          a10: 'var(--color-accent-a10)',
+          a11: 'var(--color-accent-a11)',
+          a12: 'var(--color-accent-a12)',
+          DEFAULT: 'hsl(var(--accent))',
+          foreground: 'hsl(var(--accent-foreground))'
+        },
+        'deep-black': 'var(--color-deep-black)',
         border: 'hsl(var(--border))',
         input: 'hsl(var(--input))',
         ring: 'hsl(var(--ring))',
@@ -35,10 +90,6 @@ module.exports = {
         muted: {
           DEFAULT: 'hsl(var(--muted))',
           foreground: 'hsl(var(--muted-foreground))'
-        },
-        accent: {
-          DEFAULT: 'hsl(var(--accent))',
-          foreground: 'hsl(var(--accent-foreground))'
         },
         popover: {
           DEFAULT: 'hsl(var(--popover))',
@@ -64,8 +115,25 @@ module.exports = {
       },
       backgroundColor: {
         //   TODO: define utilities for --bg-* variables
+        base: 'var(--bg-base)',
+        soft: 'var(--bg-soft)',
+        surface: 'var(--bg-main)',
+        'accent-soft': 'var(--bg-accent-soft)',
+        'info-soft': 'var(--bg-info-soft)',
+        'success-soft': 'var(--bg-success-soft)',
+        'warning-soft': 'var(--bg-warning-soft)',
+        'danger-soft': 'var(--bg-danger-soft)',
+        'accent-bold': 'var(--bg-accent-bold)',
+        'info-bold': 'var(--bg-info-bold)',
+        'success-bold': 'var(--bg-success-bold)',
+        'warning-bold': 'var(--bg-warning-bold)',
+        'danger-bold': 'var(--bg-danger-bold)'
       },
       borderColor: {
+        line: 'var(--brd-line)',
+        interactive: 'var(--brd-interactive)'
+      },
+      ringColor: {
         line: 'var(--brd-line)',
         interactive: 'var(--brd-interactive)'
       },
@@ -79,7 +147,7 @@ module.exports = {
         '3xl': `var(--ui-radius-6)`
       },
       fontFamily: {
-        sans: ['Geliat', ...fontFamily.sans]
+        sans: ['var(--font-sans)', ...fontFamily.sans]
       },
       keyframes: {
         'accordion-down': {

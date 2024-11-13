@@ -7,7 +7,7 @@
   --cnt-on-accent-bold: #ffffff; /* this is the contrast color for `radixBrightColor.9` */
   --cnt-inverse: #ffffff; /* NOTE: should only be applied to content on `black` surfaces */
 
-  --cnt-accent: #7910ff;
+  --cnt-accent: var(--color-accent-11);
   --cnt-info: #0068d6;
   --cnt-success: #128700;
   --cnt-warning: #e32d00;
@@ -15,16 +15,16 @@
 
   /* Backgrounds */
   --bg-base: var(--color-gray-1);
-  --bg-subtle: var(--color-gray-2);
+  --bg-soft: var(--color-gray-2);
   --bg-main: var(--color-gray-3);
 
-  --bg-accent-soft: #f4ebff;
+  --bg-accent-soft: var(--color-accent-3);
   --bg-info-soft: #ebf5ff;
   --bg-success-soft: #e6faef;
   --bg-warning-soft: #fff3eb;
   --bg-danger-soft: #fff0f1;
 
-  --bg-accent-bold: #7910ff;
+  --bg-accent-bold: var(--color-accent-9);
   --bg-info-bold: #0759ff;
   --bg-success-bold: #0c823c;
   --bg-warning-bold: #fa5c00;
