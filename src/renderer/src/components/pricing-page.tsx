@@ -27,7 +27,7 @@ export const PricingView = () => (
           ut non voluptas in. Explicabo id ut laborum.
         </p>
       </div>
-      <div className="bg-white mx-auto mt-16 max-w-2xl rounded-3xl ring-1 ring-gray-7 sm:mt-20 lg:mx-0 lg:flex lg:max-w-none shadow-3">
+      <div className="bg-surface mx-auto mt-16 max-w-2xl rounded-3xl ring-1 ring-gray-7 sm:mt-20 lg:mx-0 lg:flex lg:max-w-none shadow-3">
         <div className="p-8 sm:p-10 lg:flex-auto">
           <h3 className="text-3xl font-semibold tracking-tight text-primary">
             Lifetime membership
@@ -62,7 +62,7 @@ export const PricingView = () => (
               </p>
               <a
                 href="#"
-                className="mt-10 block w-full rounded-md bg-accent-bold px-3 py-2 text-center text-sm ring-1 ring-offset-2 ring-offset-gray-2 ring-accent-8 font-semibold text-on-accent  hover:bg-accent-10 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
+                className="mt-10 block w-full rounded-md bg-accent-bold px-3 py-2 text-center text-sm ring-1 ring-offset-2 ring-offset-gray-2 ring-accent font-semibold text-on-accent  hover:bg-accent-10 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
               >
                 Get access
               </a>

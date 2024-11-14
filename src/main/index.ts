@@ -3,13 +3,18 @@ import { join } from 'path'
 import { electronApp, optimizer, is } from '@electron-toolkit/utils'
 import icon from '../../resources/icon.png?asset'
 
-const DEFAULT_WIDTH = 900
-const DEFAULT_HEIGHT = 820
-function createWindow(): void {
+const DEFAULT_WIDTH = 1200
+const DEFAULT_HEIGHT = 800
+const MIN_WIDTH = 800
+const MIN_HEIGHT = 600
+
+const createWindow = (): void => {
   // Create the browser window.
   const mainWindow = new BrowserWindow({
     width: DEFAULT_WIDTH,
     height: DEFAULT_HEIGHT,
+    minHeight: MIN_HEIGHT,
+    minWidth: MIN_WIDTH,
     show: false,
     autoHideMenuBar: true,
     titleBarStyle: 'hidden',

@@ -38,6 +38,70 @@
   font-display: swap;
 }
 
+@font-face {
+  font-family: 'Geliat';
+  src: url('../fonts/geliat/Geliat-AltRegular.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Geliat';
+  src: url('../fonts/geliat/Geliat-AltItalic.otf') format('opentype');
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Geliat';
+  src: url('../fonts/geliat/Geliat-AltMedium.otf') format('opentype');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Geliat';
+  src: url('../fonts/geliat/Geliat-AltMediumItalic.otf') format('opentype');
+  font-weight: 500;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Geliat';
+  src: url('../fonts/geliat/Geliat-AltSemiBold.otf') format('opentype');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Geliat';
+  src: url('../fonts/geliat/Geliat-AltSemiBoldItalic.otf') format('opentype');
+  font-weight: 600;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Geliat';
+  src: url('../fonts/geliat/Geliat-AltBold.otf') format('opentype');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Geliat';
+  src: url('../fonts/geliat/Geliat-AltBoldItalic.otf') format('opentype');
+  font-weight: 700;
+  font-style: italic;
+  font-display: swap;
+}
+
 :root {
   --font-sans: 'VisbyCF';
 }

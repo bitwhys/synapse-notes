@@ -1,3 +1,5 @@
+// Supports weights 200-800
+import '@fontsource-variable/plus-jakarta-sans'
 import './assets/css/main.css'
 
 import React from 'react'

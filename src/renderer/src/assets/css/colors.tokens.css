@@ -8,41 +8,44 @@
   --cnt-inverse: #ffffff; /* NOTE: should only be applied to content on `black` surfaces */
 
   --cnt-accent: var(--color-accent-11);
-  --cnt-info: #0068d6;
-  --cnt-success: #128700;
-  --cnt-warning: #e32d00;
-  --cnt-danger: #e00018;
+  --cnt-info: var(--color-info-11);
+  --cnt-success: var(--color-success-11);
+  --cnt-warning: var(--color-warning-11);
+  --cnt-danger: var(--color-danger-11);
 
   /* Backgrounds */
   --bg-base: var(--color-gray-1);
   --bg-soft: var(--color-gray-2);
   --bg-main: var(--color-gray-3);
+  --bg-surface: #fff;
+  --bg-plate: var(--color-gray-4);
 
   --bg-accent-soft: var(--color-accent-3);
-  --bg-info-soft: #ebf5ff;
-  --bg-success-soft: #e6faef;
-  --bg-warning-soft: #fff3eb;
-  --bg-danger-soft: #fff0f1;
+  --bg-info-soft: var(--color-info-3);
+  --bg-success-soft: var(--color-success-3);
+  --bg-warning-soft: var(--color-warning-3);
+  --bg-danger-soft: var(--color-danger-3);
 
   --bg-accent-bold: var(--color-accent-9);
-  --bg-info-bold: #0759ff;
-  --bg-success-bold: #0c823c;
-  --bg-warning-bold: #fa5c00;
-  --bg-danger-bold: #d50017;
+  --bg-info-bold: var(--color-info-9);
+  --bg-success-bold: var(--color-success-9);
+  --bg-warning-bold: var(--color-warning-9);
+  --bg-danger-bold: var(--color-danger-9);
 
   /* Borders */
   --brd-line: var(--color-gray-5);
-  --brd-interactive: var(--color-gray-6);
+  --brd-separator: var(--color-gray-6);
+  --brd-interactive: var(--color-gray-7);
 
-  --brd-accent: #7910ff;
-  --brd-info: #0068d6;
-  --brd-success: #128700;
-  --brd-warning: #e32d00;
-  --brd-danger: #e00018;
+  --brd-accent: var(--color-accent-8);
+  --brd-info: var(--color-info-8);
+  --brd-success: var(--color-success-8);
+  --brd-warning: var(--color-warning-8);
+  --brd-danger: var(--color-danger-8);
 
   /* Page Backgrounds */
-  --pagebg-main: #ffffff;
-  --pagebg-alternative: #f7f7f8;
+  --pagebg-base: var(--bg-base);
+  --pagebg-soft: var(--bg-soft);
 
   /* -———————————————————————————————————————————- */
 
@@ -86,4 +89,12 @@
   --bg-warning-bold-pressed: #d14d00;
   --bg-danger-bold-hover: #b80014;
   --bg-danger-bold-pressed: #a30011;
+}
+
+.dark {
+  --bg-surface: var(--bg-main);
+  --bg-plate: var(--color-gray-1);
+  /* Page Backgrounds */
+  --pagebg-base: var(--color-deep-black);
+  --pagebg-soft: var(--bg-soft);
 }

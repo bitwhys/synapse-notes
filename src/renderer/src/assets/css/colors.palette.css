@@ -1,3 +1,4 @@
+
 :root,
 .light,
 .light-theme {
@@ -60,49 +61,142 @@
   --color-gray-indicator: #9f8968;
   --color-gray-track: #9f8968;
 
-  --color-accent-1: #fffbfe;
-  --color-accent-2: #fff5fc;
-  --color-accent-3: #ffe4f9;
-  --color-accent-4: #ffd4f4;
-  --color-accent-5: #ffc4ee;
-  --color-accent-6: #ffb1e5;
-  --color-accent-7: #ff99da;
-  --color-accent-8: #fa77ce;
-  --color-accent-9: #f471c8;
-  --color-accent-10: #e765bc;
-  --color-accent-11: #b4358e;
-  --color-accent-12: #6d0051;
+  --color-accent-1: #fffcfe;
+  --color-accent-2: #fef7fb;
+  --color-accent-3: #fee9f5;
+  --color-accent-4: #fbdcee;
+  --color-accent-5: #f6cee5;
+  --color-accent-6: #efbfdb;
+  --color-accent-7: #e7accf;
+  --color-accent-8: #dd93c0;
+  --color-accent-9: #e958b9;
+  --color-accent-10: #db4bad;
+  --color-accent-11: #bd2d92;
+  --color-accent-12: #63144b;
 
-  --color-accent-a1: #ff00c004;
-  --color-accent-a2: #ff00b30a;
-  --color-accent-a3: #ff00c71b;
-  --color-accent-a4: #ff01be2b;
-  --color-accent-a5: #ff01b63b;
-  --color-accent-a6: #ff00aa4e;
-  --color-accent-a7: #ff00a366;
-  --color-accent-a8: #f600a488;
-  --color-accent-a9: #ec009d8e;
-  --color-accent-a10: #d800909a;
-  --color-accent-a11: #a00070ca;
-  --color-accent-a12: #6d0051;
+  --color-accent-a1: #ff00aa03;
+  --color-accent-a2: #e0008008;
+  --color-accent-a3: #f4008c16;
+  --color-accent-a4: #e2008423;
+  --color-accent-a5: #d1007831;
+  --color-accent-a6: #c0007040;
+  --color-accent-a7: #b6006c53;
+  --color-accent-a8: #af006b6c;
+  --color-accent-a9: #de0094a7;
+  --color-accent-a10: #cc008bb4;
+  --color-accent-a11: #af007bd2;
+  --color-accent-a12: #56003ceb;
 
   --color-accent-contrast: #fff;
-  --color-accent-surface: #fff3fbcc;
-  --color-accent-indicator: #f471c8;
-  --color-accent-track: #f471c8;
+  --color-accent-surface: #fef5facc;
+  --color-accent-indicator: #e958b9;
+  --color-accent-track: #e958b9;
+
+  --color-info-1: #fafdfe;
+  --color-info-2: #f2fafb;
+  --color-info-3: #def7f9;
+  --color-info-4: #caf1f6;
+  --color-info-5: #b5e9f0;
+  --color-info-6: #9ddde7;
+  --color-info-7: #7dcedc;
+  --color-info-8: #3db9cf;
+  --color-info-9: #00a2c7;
+  --color-info-10: #0797b9;
+  --color-info-11: #107d98;
+  --color-info-12: #0d3c48;
+
+  --color-info-a1: #0099cc05;
+  --color-info-a2: #009db10d;
+  --color-info-a3: #00c2d121;
+  --color-info-a4: #00bcd435;
+  --color-info-a5: #01b4cc4a;
+  --color-info-a6: #00a7c162;
+  --color-info-a7: #009fbb82;
+  --color-info-a8: #00a3c0c2;
+  --color-info-a9: #00a2c7;
+  --color-info-a10: #0094b7f8;
+  --color-info-a11: #007491ef;
+  --color-info-a12: #00323ef2;
+
+  --color-warning-1: #fefdfb;
+  --color-warning-2: #fefbe9;
+  --color-warning-3: #fff7c2;
+  --color-warning-4: #ffee9c;
+  --color-warning-5: #fbe577;
+  --color-warning-6: #f3d673;
+  --color-warning-7: #e9c162;
+  --color-warning-8: #e2a336;
+  --color-warning-9: #ffc53d;
+  --color-warning-10: #ffba18;
+  --color-warning-11: #ab6400;
+  --color-warning-12: #4f3422;
+
+  --color-warning-a1: #c0800004;
+  --color-warning-a2: #f4d10016;
+  --color-warning-a3: #ffde003d;
+  --color-warning-a4: #ffd40063;
+  --color-warning-a5: #f8cf0088;
+  --color-warning-a6: #eab5008c;
+  --color-warning-a7: #dc9b009d;
+  --color-warning-a8: #da8a00c9;
+  --color-warning-a9: #ffb300c2;
+  --color-warning-a10: #ffb300e7;
+  --color-warning-a11: #ab6400;
+  --color-warning-a12: #341500dd;
+
+  --color-success-1: #fbfefb;
+  --color-success-2: #f5fbf5;
+  --color-success-3: #e9f6e9;
+  --color-success-4: #daf1db;
+  --color-success-5: #c9e8ca;
+  --color-success-6: #b2ddb5;
+  --color-success-7: #94ce9a;
+  --color-success-8: #65ba74;
+  --color-success-9: #46a758;
+  --color-success-10: #3e9b4f;
+  --color-success-11: #2a7e3b;
+  --color-success-12: #203c25;
+
+  --color-success-a1: #00c00004;
+  --color-success-a2: #0099000a;
+  --color-success-a3: #00970016;
+  --color-success-a4: #009f0725;
+  --color-success-a5: #00930536;
+  --color-success-a6: #008f0a4d;
+  --color-success-a7: #018b0f6b;
+  --color-success-a8: #008d199a;
+  --color-success-a9: #008619b9;
+  --color-success-a10: #007b17c1;
+  --color-success-a11: #006514d5;
+  --color-success-a12: #002006df;
+
+  --color-danger-1: #fffcfc;
+  --color-danger-2: #fff8f7;
+  --color-danger-3: #feebe7;
+  --color-danger-4: #ffdcd3;
+  --color-danger-5: #ffcdc2;
+  --color-danger-6: #fdbdaf;
+  --color-danger-7: #f5a898;
+  --color-danger-8: #ec8e7b;
+  --color-danger-9: #e54d2e;
+  --color-danger-10: #dd4425;
+  --color-danger-11: #d13415;
+  --color-danger-12: #5c271f;
+
+  --color-danger-a1: #ff000003;
+  --color-danger-a2: #ff200008;
+  --color-danger-a3: #f52b0018;
+  --color-danger-a4: #ff35002c;
+  --color-danger-a5: #ff2e003d;
+  --color-danger-a6: #f92d0050;
+  --color-danger-a7: #e7280067;
+  --color-danger-a8: #db250084;
+  --color-danger-a9: #df2600d1;
+  --color-danger-a10: #d72400da;
+  --color-danger-a11: #cd2200ea;
+  --color-danger-a12: #460900e0;
 }
 
-:root, .light, .light-theme {
-
-}
-
-@supports (color: color(display-p3 1 1 1)) {
-  @media (color-gamut: p3) {
-    :root, .light, .light-theme {
-
-    }
-  }
-}
 
 .dark,
 .dark-theme {
@@ -138,37 +232,141 @@
   --color-gray-indicator: #7f6947;
   --color-gray-track: #7f6947;
 
-  --color-accent-1: #100a15;
-  --color-accent-2: #1b1423;
-  --color-accent-3: #2d1c3e;
-  --color-accent-4: #3b2153;
-  --color-accent-5: #462961;
-  --color-accent-6: #52346f;
-  --color-accent-7: #644285;
-  --color-accent-8: #8054aa;
-  --color-accent-9: #ba87ee;
-  --color-accent-10: #ae7ce2;
-  --color-accent-11: #d09dff;
-  --color-accent-12: #e9dafc;
+  --color-accent-1: #130a0f;
+  --color-accent-2: #21101a;
+  --color-accent-3: #38152c;
+  --color-accent-4: #4d113b;
+  --color-accent-5: #5b1946;
+  --color-accent-6: #6b2755;
+  --color-accent-7: #85366a;
+  --color-accent-8: #a94588;
+  --color-accent-9: #f15fc1;
+  --color-accent-10: #e452b5;
+  --color-accent-11: #ff82db;
+  --color-accent-12: #fed0eb;
 
-  --color-accent-a1: #6200f009;
-  --color-accent-a2: #a258f718;
-  --color-accent-a3: #aa57fe34;
-  --color-accent-a4: #ac52ff4a;
-  --color-accent-a5: #b15efe59;
-  --color-accent-a6: #b66dfd68;
-  --color-accent-a7: #bb77fd7f;
-  --color-accent-a8: #bd7afea6;
-  --color-accent-a9: #c690feee;
-  --color-accent-a10: #c38afee1;
-  --color-accent-a11: #d09dff;
-  --color-accent-a12: #ecddfffc;
+  --color-accent-a1: #e8005607;
+  --color-accent-a2: #f530a416;
+  --color-accent-a3: #fc3ab92e;
+  --color-accent-a4: #fd1cb944;
+  --color-accent-a5: #fd32bc53;
+  --color-accent-a6: #fd50c564;
+  --color-accent-a7: #fd5fc77f;
+  --color-accent-a8: #fe63cba5;
+  --color-accent-a9: #fe63cbf1;
+  --color-accent-a10: #ff5bcae3;
+  --color-accent-a11: #ff82db;
+  --color-accent-a12: #ffd1ecfe;
 
-  /* TODO: move these to colors.tokens.css */
   --color-accent-contrast: #fff;
-  --color-accent-surface: #291b3980;
-  --color-accent-indicator: #ba87ee;
-  --color-accent-track: #ba87ee;
+  --color-accent-surface: #35132780;
+  --color-accent-indicator: #f15fc1;
+  --color-accent-track: #f15fc1;
+
+  --color-info-1: #0b161a;
+  --color-info-2: #101b20;
+  --color-info-3: #082c36;
+  --color-info-4: #003848;
+  --color-info-5: #004558;
+  --color-info-6: #045468;
+  --color-info-7: #12677e;
+  --color-info-8: #11809c;
+  --color-info-9: #00a2c7;
+  --color-info-10: #23afd0;
+  --color-info-11: #4ccce6;
+  --color-info-12: #b6ecf7;
+
+  --color-info-a1: #0091f70a;
+  --color-info-a2: #02a7f211;
+  --color-info-a3: #00befd28;
+  --color-info-a4: #00baff3b;
+  --color-info-a5: #00befd4d;
+  --color-info-a6: #00c7fd5e;
+  --color-info-a7: #14cdff75;
+  --color-info-a8: #11cfff95;
+  --color-info-a9: #00cfffc3;
+  --color-info-a10: #28d6ffcd;
+  --color-info-a11: #52e1fee5;
+  --color-info-a12: #bbf3fef7;
+
+  --color-success-1: #0e1511;
+  --color-success-2: #141a15;
+  --color-success-3: #1b2a1e;
+  --color-success-4: #1d3a24;
+  --color-success-5: #25482d;
+  --color-success-6: #2d5736;
+  --color-success-7: #366740;
+  --color-success-8: #3e7949;
+  --color-success-9: #46a758;
+  --color-success-10: #53b365;
+  --color-success-11: #71d083;
+  --color-success-12: #c2f0c2;
+
+  --color-success-a1: #00de1205;
+  --color-success-a2: #5ef7780a;
+  --color-success-a3: #70fe8c1b;
+  --color-success-a4: #57ff802c;
+  --color-success-a5: #68ff8b3b;
+  --color-success-a6: #71ff8f4b;
+  --color-success-a7: #77fd925d;
+  --color-success-a8: #77fd9070;
+  --color-success-a9: #65ff82a1;
+  --color-success-a10: #72ff8dae;
+  --color-success-a11: #89ff9fcd;
+  --color-success-a12: #ceffceef;
+
+  --color-warning-1: #16120c;
+  --color-warning-2: #1d180f;
+  --color-warning-3: #302008;
+  --color-warning-4: #3f2700;
+  --color-warning-5: #4d3000;
+  --color-warning-6: #5c3d05;
+  --color-warning-7: #714f19;
+  --color-warning-8: #8f6424;
+  --color-warning-9: #ffc53d;
+  --color-warning-10: #ffd60a;
+  --color-warning-11: #ffca16;
+  --color-warning-12: #ffe7b3;
+
+  --color-warning-a1: #e63c0006;
+  --color-warning-a2: #fd9b000d;
+  --color-warning-a3: #fa820022;
+  --color-warning-a4: #fc820032;
+  --color-warning-a5: #fd8b0041;
+  --color-warning-a6: #fd9b0051;
+  --color-warning-a7: #ffab2567;
+  --color-warning-a8: #ffae3587;
+  --color-warning-a9: #ffc53d;
+  --color-warning-a10: #ffd60a;
+  --color-warning-a11: #ffca16;
+  --color-warning-a12: #ffe7b3;
+
+  --color-danger-1: #181111;
+  --color-danger-2: #1f1513;
+  --color-danger-3: #391714;
+  --color-danger-4: #4e1511;
+  --color-danger-5: #5e1c16;
+  --color-danger-6: #6e2920;
+  --color-danger-7: #853a2d;
+  --color-danger-8: #ac4d39;
+  --color-danger-9: #e54d2e;
+  --color-danger-10: #ec6142;
+  --color-danger-11: #ff977d;
+  --color-danger-12: #fbd3cb;
+
+  --color-danger-a1: #f1121208;
+  --color-danger-a2: #ff55330f;
+  --color-danger-a3: #ff35232b;
+  --color-danger-a4: #fd201142;
+  --color-danger-a5: #fe332153;
+  --color-danger-a6: #ff4f3864;
+  --color-danger-a7: #fd644a7d;
+  --color-danger-a8: #fe6d4ea7;
+  --color-danger-a9: #fe5431e4;
+  --color-danger-a10: #ff6847eb;
+  --color-danger-a11: #ff977d;
+  --color-danger-a12: #ffd6cefb;
+
 }
 
 /* P3 color support */
@@ -235,36 +433,140 @@
       --color-gray-indicator: oklch(64.1% 0.0527 77.7);
       --color-gray-track: oklch(64.1% 0.0527 77.7);
 
-      --color-accent-1: oklch(99.4% 0.0072 342.2);
-      --color-accent-2: oklch(98.3% 0.0159 342.2);
-      --color-accent-3: oklch(95.5% 0.0468 342.2);
-      --color-accent-4: oklch(92.6% 0.0718 342.2);
-      --color-accent-5: oklch(89.5% 0.0938 342.2);
-      --color-accent-6: oklch(85.7% 0.1163 342.2);
-      --color-accent-7: oklch(80.9% 0.1455 342.2);
-      --color-accent-8: oklch(74.9% 0.1875 342.2);
-      --color-accent-9: oklch(73.1% 0.1875 342.2);
-      --color-accent-10: oklch(69.4% 0.1875 342.2);
-      --color-accent-11: oklch(54.7% 0.1875 342.2);
-      --color-accent-12: oklch(34.7% 0.1875 342.2);
+      --color-accent-1: oklch(99.4% 0.0039 343);
+      --color-accent-2: oklch(98.3% 0.0092 343);
+      --color-accent-3: oklch(95.4% 0.027 343);
+      --color-accent-4: oklch(92.5% 0.0411 343);
+      --color-accent-5: oklch(89.3% 0.0536 343);
+      --color-accent-6: oklch(85.5% 0.0659 343);
+      --color-accent-7: oklch(80.9% 0.082 343);
+      --color-accent-8: oklch(75.2% 0.105 343);
+      --color-accent-9: oklch(68% 0.2059 343);
+      --color-accent-10: oklch(64.1% 0.2059 343);
+      --color-accent-11: oklch(55.6% 0.2042 343);
+      --color-accent-12: oklch(34.9% 0.1264 343);
 
-      --color-accent-a1: color(display-p3 0.7569 0.0235 0.7569 / 0.016);
-      --color-accent-a2: color(display-p3 0.8078 0.0235 0.7098 / 0.04);
-      --color-accent-a3: color(display-p3 0.8078 0.0039 0.7333 / 0.102);
-      --color-accent-a4: color(display-p3 0.8314 0.0039 0.6863 / 0.161);
-      --color-accent-a5: color(display-p3 0.8431 0.0039 0.6706 / 0.224);
-      --color-accent-a6: color(display-p3 0.8549 0.0039 0.6157 / 0.295);
-      --color-accent-a7: color(display-p3 0.8588 0.0039 0.5882 / 0.381);
-      --color-accent-a8: color(display-p3 0.8392 0 0.5922 / 0.506);
-      --color-accent-a9: color(display-p3 0.8 0 0.5608 / 0.526);
-      --color-accent-a10: color(display-p3 0.7255 0 0.5137 / 0.573);
-      --color-accent-a11: color(display-p3 0.5373 0 0.3961 / 0.753);
-      --color-accent-a12: color(display-p3 0.349 0 0.2627 / 0.938);
+      --color-accent-a1: color(display-p3 0.6745 0.0235 0.6745 / 0.012);
+      --color-accent-a2: color(display-p3 0.7569 0.0196 0.5098 / 0.032);
+      --color-accent-a3: color(display-p3 0.7647 0.0078 0.4824 / 0.083);
+      --color-accent-a4: color(display-p3 0.7373 0.0078 0.4745 / 0.134);
+      --color-accent-a5: color(display-p3 0.6902 0.0078 0.4431 / 0.189);
+      --color-accent-a6: color(display-p3 0.6157 0.0039 0.3922 / 0.244);
+      --color-accent-a7: color(display-p3 0.5961 0.0039 0.3843 / 0.318);
+      --color-accent-a8: color(display-p3 0.5725 0.0039 0.3843 / 0.412);
+      --color-accent-a9: color(display-p3 0.7529 0 0.5294 / 0.616);
+      --color-accent-a10: color(display-p3 0.6941 0 0.4941 / 0.667);
+      --color-accent-a11: color(display-p3 0.5882 0 0.4275 / 0.773);
+      --color-accent-a12: color(display-p3 0.2824 0 0.2 / 0.895);
 
       --color-accent-contrast: #fff;
-      --color-accent-surface: color(display-p3 1 0.9569 0.9882 / 0.8);
-      --color-accent-indicator: oklch(73.1% 0.1875 342.2);
-      --color-accent-track: oklch(73.1% 0.1875 342.2);
+      --color-accent-surface: color(display-p3 0.9922 0.9608 0.9804 / 0.8);
+      --color-accent-indicator: oklch(68% 0.2059 343);
+      --color-accent-track: oklch(68% 0.2059 343);
+
+      --color-info-1: color(display-p3 0.982 0.992 0.996);
+      --color-info-2: color(display-p3 0.955 0.981 0.984);
+      --color-info-3: color(display-p3 0.888 0.965 0.975);
+      --color-info-4: color(display-p3 0.821 0.941 0.959);
+      --color-info-5: color(display-p3 0.751 0.907 0.935);
+      --color-info-6: color(display-p3 0.671 0.862 0.9);
+      --color-info-7: color(display-p3 0.564 0.8 0.854);
+      --color-info-8: color(display-p3 0.388 0.715 0.798);
+      --color-info-9: color(display-p3 0.282 0.627 0.765);
+      --color-info-10: color(display-p3 0.264 0.583 0.71);
+      --color-info-11: color(display-p3 0.08 0.48 0.63);
+      --color-info-12: color(display-p3 0.108 0.232 0.277);
+
+      --color-info-a1: color(display-p3 0.02 0.608 0.804 / 0.02);
+      --color-info-a2: color(display-p3 0.02 0.557 0.647 / 0.044);
+      --color-info-a3: color(display-p3 0.004 0.694 0.796 / 0.114);
+      --color-info-a4: color(display-p3 0.004 0.678 0.784 / 0.181);
+      --color-info-a5: color(display-p3 0.004 0.624 0.733 / 0.248);
+      --color-info-a6: color(display-p3 0.004 0.584 0.706 / 0.33);
+      --color-info-a7: color(display-p3 0.004 0.541 0.667 / 0.436);
+      --color-info-a8: color(display-p3 0 0.533 0.667 / 0.612);
+      --color-info-a9: color(display-p3 0 0.482 0.675 / 0.718);
+      --color-info-a10: color(display-p3 0 0.435 0.608 / 0.738);
+      --color-info-a11: color(display-p3 0.08 0.48 0.63);
+      --color-info-a12: color(display-p3 0.108 0.232 0.277);
+
+      --color-warning-1: color(display-p3 0.995 0.992 0.985);
+      --color-warning-2: color(display-p3 0.994 0.986 0.921);
+      --color-warning-3: color(display-p3 0.994 0.969 0.782);
+      --color-warning-4: color(display-p3 0.989 0.937 0.65);
+      --color-warning-5: color(display-p3 0.97 0.902 0.527);
+      --color-warning-6: color(display-p3 0.936 0.844 0.506);
+      --color-warning-7: color(display-p3 0.89 0.762 0.443);
+      --color-warning-8: color(display-p3 0.85 0.65 0.3);
+      --color-warning-9: color(display-p3 1 0.77 0.26);
+      --color-warning-10: color(display-p3 0.959 0.741 0.274);
+      --color-warning-11: color(display-p3 0.64 0.4 0);
+      --color-warning-12: color(display-p3 0.294 0.208 0.145);
+
+      --color-warning-a1: color(display-p3 0.757 0.514 0.024 / 0.016);
+      --color-warning-a2: color(display-p3 0.902 0.804 0.008 / 0.079);
+      --color-warning-a3: color(display-p3 0.965 0.859 0.004 / 0.22);
+      --color-warning-a4: color(display-p3 0.969 0.82 0.004 / 0.35);
+      --color-warning-a5: color(display-p3 0.933 0.796 0.004 / 0.475);
+      --color-warning-a6: color(display-p3 0.875 0.682 0.004 / 0.495);
+      --color-warning-a7: color(display-p3 0.804 0.573 0 / 0.557);
+      --color-warning-a8: color(display-p3 0.788 0.502 0 / 0.699);
+      --color-warning-a9: color(display-p3 1 0.686 0 / 0.742);
+      --color-warning-a10: color(display-p3 0.945 0.643 0 / 0.726);
+      --color-warning-a11: color(display-p3 0.64 0.4 0);
+      --color-warning-a12: color(display-p3 0.294 0.208 0.145);
+
+      --color-success-1: color(display-p3 0.986 0.996 0.985);
+      --color-success-2: color(display-p3 0.966 0.983 0.964);
+      --color-success-3: color(display-p3 0.923 0.965 0.917);
+      --color-success-4: color(display-p3 0.872 0.94 0.865);
+      --color-success-5: color(display-p3 0.811 0.908 0.802);
+      --color-success-6: color(display-p3 0.733 0.864 0.724);
+      --color-success-7: color(display-p3 0.628 0.803 0.622);
+      --color-success-8: color(display-p3 0.477 0.72 0.482);
+      --color-success-9: color(display-p3 0.38 0.647 0.378);
+      --color-success-10: color(display-p3 0.344 0.598 0.342);
+      --color-success-11: color(display-p3 0.263 0.488 0.261);
+      --color-success-12: color(display-p3 0.151 0.233 0.153);
+
+      --color-success-a1: color(display-p3 0.024 0.757 0.024 / 0.016);
+      --color-success-a2: color(display-p3 0.024 0.565 0.024 / 0.036);
+      --color-success-a3: color(display-p3 0.059 0.576 0.008 / 0.083);
+      --color-success-a4: color(display-p3 0.035 0.565 0.008 / 0.134);
+      --color-success-a5: color(display-p3 0.047 0.545 0.008 / 0.197);
+      --color-success-a6: color(display-p3 0.031 0.502 0.004 / 0.275);
+      --color-success-a7: color(display-p3 0.012 0.482 0.004 / 0.377);
+      --color-success-a8: color(display-p3 0 0.467 0.008 / 0.522);
+      --color-success-a9: color(display-p3 0.008 0.435 0 / 0.624);
+      --color-success-a10: color(display-p3 0.008 0.388 0 / 0.659);
+      --color-success-a11: color(display-p3 0.263 0.488 0.261);
+      --color-success-a12: color(display-p3 0.151 0.233 0.153);
+
+      --color-danger-1: color(display-p3 0.998 0.989 0.988);
+      --color-danger-2: color(display-p3 0.994 0.974 0.969);
+      --color-danger-3: color(display-p3 0.985 0.924 0.909);
+      --color-danger-4: color(display-p3 0.996 0.868 0.835);
+      --color-danger-5: color(display-p3 0.98 0.812 0.77);
+      --color-danger-6: color(display-p3 0.953 0.75 0.698);
+      --color-danger-7: color(display-p3 0.917 0.673 0.611);
+      --color-danger-8: color(display-p3 0.875 0.575 0.502);
+      --color-danger-9: color(display-p3 0.831 0.345 0.231);
+      --color-danger-10: color(display-p3 0.802 0.313 0.2);
+      --color-danger-11: color(display-p3 0.755 0.259 0.152);
+      --color-danger-12: color(display-p3 0.335 0.165 0.132);
+
+      --color-danger-a1: color(display-p3 0.675 0.024 0.024 / 0.012);
+      --color-danger-a2: color(display-p3 0.757 0.145 0.02 / 0.032);
+      --color-danger-a3: color(display-p3 0.831 0.184 0.012 / 0.091);
+      --color-danger-a4: color(display-p3 0.976 0.192 0.004 / 0.165);
+      --color-danger-a5: color(display-p3 0.918 0.192 0.004 / 0.232);
+      --color-danger-a6: color(display-p3 0.847 0.173 0.004 / 0.302);
+      --color-danger-a7: color(display-p3 0.788 0.165 0.004 / 0.389);
+      --color-danger-a8: color(display-p3 0.749 0.153 0.004 / 0.499);
+      --color-danger-a9: color(display-p3 0.78 0.149 0 / 0.769);
+      --color-danger-a10: color(display-p3 0.757 0.141 0 / 0.8);
+      --color-danger-a11: color(display-p3 0.755 0.259 0.152);
+      --color-danger-a12: color(display-p3 0.335 0.165 0.132);
     }
 
     .dark,
@@ -301,37 +603,141 @@
       --color-gray-indicator: oklch(53.5% 0.0568 78.16);
       --color-gray-track: oklch(53.5% 0.0568 78.16);
 
-      --color-accent-1: oklch(15.9% 0.0241 305.7);
-      --color-accent-2: oklch(20.7% 0.0325 305.7);
-      --color-accent-3: oklch(26.5% 0.0653 305.7);
-      --color-accent-4: oklch(30.8% 0.0892 305.7);
-      --color-accent-5: oklch(34.5% 0.0969 305.7);
-      --color-accent-6: oklch(38.8% 0.1017 305.7);
-      --color-accent-7: oklch(44.7% 0.1124 305.7);
-      --color-accent-8: oklch(53.1% 0.136 305.7);
-      --color-accent-9: oklch(71.3% 0.1535 305.7);
-      --color-accent-10: oklch(67.7% 0.1535 305.7);
-      --color-accent-11: oklch(78.2% 0.1535 305.7);
-      --color-accent-12: oklch(91.1% 0.0486 305.7);
+      --color-accent-1: oklch(15.9% 0.0183 342.7);
+      --color-accent-2: oklch(20.2% 0.0329 342.7);
+      --color-accent-3: oklch(25.9% 0.0643 342.7);
+      --color-accent-4: oklch(29.8% 0.1025 342.7);
+      --color-accent-5: oklch(33.7% 0.1095 342.7);
+      --color-accent-6: oklch(38.9% 0.1127 342.7);
+      --color-accent-7: oklch(45.9% 0.1254 342.7);
+      --color-accent-8: oklch(54.5% 0.1523 342.7);
+      --color-accent-9: oklch(70.2% 0.2071 342.7);
+      --color-accent-10: oklch(66.5% 0.2071 342.7);
+      --color-accent-11: oklch(78.9% 0.1999 342.7);
+      --color-accent-12: oklch(90.5% 0.0616 342.7);
 
-      --color-accent-a1: color(display-p3 0.3216 0 1 / 0.029);
-      --color-accent-a2: color(display-p3 0.6392 0.3686 1 / 0.087);
-      --color-accent-a3: color(display-p3 0.6353 0.3765 1 / 0.195);
-      --color-accent-a4: color(display-p3 0.6471 0.349 1 / 0.277);
-      --color-accent-a5: color(display-p3 0.6706 0.3882 1 / 0.335);
-      --color-accent-a6: color(display-p3 0.702 0.451 1 / 0.393);
-      --color-accent-a7: color(display-p3 0.7216 0.4941 1 / 0.48);
-      --color-accent-a8: color(display-p3 0.7294 0.5059 1 / 0.629);
-      --color-accent-a9: color(display-p3 0.7686 0.5882 1 / 0.905);
-      --color-accent-a10: color(display-p3 0.7569 0.5686 1 / 0.856);
-      --color-accent-a11: color(display-p3 0.8039 0.6392 1 / 0.976);
-      --color-accent-a12: color(display-p3 0.9255 0.8784 1 / 0.976);
+      --color-accent-a1: color(display-p3 0.9882 0 0.4275 / 0.021);
+      --color-accent-a2: color(display-p3 0.9961 0.2627 0.7333 / 0.075);
+      --color-accent-a3: color(display-p3 0.9961 0.2941 0.7804 / 0.162);
+      --color-accent-a4: color(display-p3 1 0.2039 0.7843 / 0.236);
+      --color-accent-a5: color(display-p3 1 0.2784 0.7882 / 0.294);
+      --color-accent-a6: color(display-p3 1 0.3843 0.8235 / 0.356);
+      --color-accent-a7: color(display-p3 1 0.451 0.8353 / 0.455);
+      --color-accent-a8: color(display-p3 1 0.4627 0.8431 / 0.596);
+      --color-accent-a9: color(display-p3 1 0.4588 0.8431 / 0.872);
+      --color-accent-a10: color(display-p3 1 0.4314 0.8392 / 0.819);
+      --color-accent-a11: color(display-p3 1 0.5725 0.898 / 0.934);
+      --color-accent-a12: color(display-p3 1 0.851 0.949 / 0.967);
 
-      /* TODO: move these to colors.tokens.css */
       --color-accent-contrast: #fff;
-      --color-accent-surface: color(display-p3 0.149 0.102 0.2118 / 0.5);
-      --color-accent-indicator: oklch(71.3% 0.1535 305.7);
-      --color-accent-track: oklch(71.3% 0.1535 305.7);
+      --color-accent-surface: color(display-p3 0.1804 0.0784 0.149 / 0.5);
+      --color-accent-indicator: oklch(70.2% 0.2071 342.7);
+      --color-accent-track: oklch(70.2% 0.2071 342.7);
+
+      --color-info-1: color(display-p3 0.053 0.085 0.098);
+      --color-info-2: color(display-p3 0.072 0.105 0.122);
+      --color-info-3: color(display-p3 0.073 0.168 0.209);
+      --color-info-4: color(display-p3 0.063 0.216 0.277);
+      --color-info-5: color(display-p3 0.091 0.267 0.336);
+      --color-info-6: color(display-p3 0.137 0.324 0.4);
+      --color-info-7: color(display-p3 0.186 0.398 0.484);
+      --color-info-8: color(display-p3 0.23 0.496 0.6);
+      --color-info-9: color(display-p3 0.282 0.627 0.765);
+      --color-info-10: color(display-p3 0.331 0.675 0.801);
+      --color-info-11: color(display-p3 0.446 0.79 0.887);
+      --color-info-12: color(display-p3 0.757 0.919 0.962);
+
+      --color-info-a1: color(display-p3 0 0.647 0.992 / 0.034);
+      --color-info-a2: color(display-p3 0.133 0.733 1 / 0.059);
+      --color-info-a3: color(display-p3 0.122 0.741 0.996 / 0.152);
+      --color-info-a4: color(display-p3 0.051 0.725 1 / 0.227);
+      --color-info-a5: color(display-p3 0.149 0.757 1 / 0.29);
+      --color-info-a6: color(display-p3 0.267 0.792 1 / 0.358);
+      --color-info-a7: color(display-p3 0.333 0.808 1 / 0.446);
+      --color-info-a8: color(display-p3 0.357 0.816 1 / 0.572);
+      --color-info-a9: color(display-p3 0.357 0.82 1 / 0.748);
+      --color-info-a10: color(display-p3 0.4 0.839 1 / 0.786);
+      --color-info-a11: color(display-p3 0.446 0.79 0.887);
+      --color-info-a12: color(display-p3 0.757 0.919 0.962);
+
+      --color-success-1: color(display-p3 0.062 0.083 0.067);
+      --color-success-2: color(display-p3 0.083 0.103 0.085);
+      --color-success-3: color(display-p3 0.118 0.163 0.122);
+      --color-success-4: color(display-p3 0.142 0.225 0.15);
+      --color-success-5: color(display-p3 0.178 0.279 0.186);
+      --color-success-6: color(display-p3 0.217 0.337 0.224);
+      --color-success-7: color(display-p3 0.258 0.4 0.264);
+      --color-success-8: color(display-p3 0.302 0.47 0.305);
+      --color-success-9: color(display-p3 0.38 0.647 0.378);
+      --color-success-10: color(display-p3 0.426 0.694 0.426);
+      --color-success-11: color(display-p3 0.535 0.807 0.542);
+      --color-success-12: color(display-p3 0.797 0.936 0.776);
+
+      --color-success-a1: color(display-p3 0 0.992 0.071 / 0.017);
+      --color-success-a2: color(display-p3 0.482 0.996 0.584 / 0.038);
+      --color-success-a3: color(display-p3 0.549 0.992 0.588 / 0.106);
+      --color-success-a4: color(display-p3 0.51 0.996 0.557 / 0.169);
+      --color-success-a5: color(display-p3 0.553 1 0.588 / 0.227);
+      --color-success-a6: color(display-p3 0.584 1 0.608 / 0.29);
+      --color-success-a7: color(display-p3 0.604 1 0.616 / 0.358);
+      --color-success-a8: color(display-p3 0.608 1 0.62 / 0.433);
+      --color-success-a9: color(display-p3 0.573 1 0.569 / 0.622);
+      --color-success-a10: color(display-p3 0.6 0.996 0.6 / 0.673);
+      --color-success-a11: color(display-p3 0.535 0.807 0.542);
+      --color-success-a12: color(display-p3 0.797 0.936 0.776);
+
+      --color-warning-1: color(display-p3 0.082 0.07 0.05);
+      --color-warning-2: color(display-p3 0.111 0.094 0.064);
+      --color-warning-3: color(display-p3 0.178 0.128 0.049);
+      --color-warning-4: color(display-p3 0.239 0.156 0);
+      --color-warning-5: color(display-p3 0.29 0.193 0);
+      --color-warning-6: color(display-p3 0.344 0.245 0.076);
+      --color-warning-7: color(display-p3 0.422 0.314 0.141);
+      --color-warning-8: color(display-p3 0.535 0.399 0.189);
+      --color-warning-9: color(display-p3 1 0.77 0.26);
+      --color-warning-10: color(display-p3 1 0.87 0.15);
+      --color-warning-11: color(display-p3 1 0.8 0.29);
+      --color-warning-12: color(display-p3 0.984 0.909 0.726);
+
+      --color-warning-a1: color(display-p3 0.992 0.298 0 / 0.017);
+      --color-warning-a2: color(display-p3 0.988 0.651 0 / 0.047);
+      --color-warning-a3: color(display-p3 1 0.6 0 / 0.118);
+      --color-warning-a4: color(display-p3 1 0.557 0 / 0.185);
+      --color-warning-a5: color(display-p3 1 0.592 0 / 0.24);
+      --color-warning-a6: color(display-p3 1 0.659 0.094 / 0.299);
+      --color-warning-a7: color(display-p3 1 0.714 0.263 / 0.383);
+      --color-warning-a8: color(display-p3 0.996 0.729 0.306 / 0.5);
+      --color-warning-a9: color(display-p3 1 0.769 0.259);
+      --color-warning-a10: color(display-p3 1 0.871 0.149);
+      --color-warning-a11: color(display-p3 1 0.8 0.29);
+      --color-warning-a12: color(display-p3 0.984 0.909 0.726);
+
+      --color-danger-1: color(display-p3 0.09 0.068 0.067);
+      --color-danger-2: color(display-p3 0.115 0.084 0.076);
+      --color-danger-3: color(display-p3 0.205 0.097 0.083);
+      --color-danger-4: color(display-p3 0.282 0.099 0.077);
+      --color-danger-5: color(display-p3 0.339 0.129 0.101);
+      --color-danger-6: color(display-p3 0.398 0.179 0.141);
+      --color-danger-7: color(display-p3 0.487 0.245 0.194);
+      --color-danger-8: color(display-p3 0.629 0.322 0.248);
+      --color-danger-9: color(display-p3 0.831 0.345 0.231);
+      --color-danger-10: color(display-p3 0.862 0.415 0.298);
+      --color-danger-11: color(display-p3 1 0.585 0.455);
+      --color-danger-12: color(display-p3 0.959 0.833 0.802);
+
+      --color-danger-a1: color(display-p3 0.973 0.071 0.071 / 0.026);
+      --color-danger-a2: color(display-p3 0.992 0.376 0.224 / 0.051);
+      --color-danger-a3: color(display-p3 0.996 0.282 0.176 / 0.148);
+      --color-danger-a4: color(display-p3 1 0.204 0.118 / 0.232);
+      --color-danger-a5: color(display-p3 1 0.286 0.192 / 0.29);
+      --color-danger-a6: color(display-p3 1 0.392 0.278 / 0.353);
+      --color-danger-a7: color(display-p3 1 0.459 0.349 / 0.45);
+      --color-danger-a8: color(display-p3 1 0.49 0.369 / 0.601);
+      --color-danger-a9: color(display-p3 1 0.408 0.267 / 0.82);
+      --color-danger-a10: color(display-p3 1 0.478 0.341 / 0.853);
+      --color-danger-a11: color(display-p3 1 0.585 0.455);
+      --color-danger-a12: color(display-p3 0.959 0.833 0.802);
+
     }
   }
 }

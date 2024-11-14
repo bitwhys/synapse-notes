@@ -115,9 +115,12 @@ module.exports = {
       },
       backgroundColor: {
         //   TODO: define utilities for --bg-* variables
+        page: 'var(--pagebg-base)',
+        'page-soft': 'var(--pagebg-soft)',
         base: 'var(--bg-base)',
         soft: 'var(--bg-soft)',
-        surface: 'var(--bg-main)',
+        plate: 'var(--bg-plate)',
+        surface: 'var(--bg-surface)',
         'accent-soft': 'var(--bg-accent-soft)',
         'info-soft': 'var(--bg-info-soft)',
         'success-soft': 'var(--bg-success-soft)',
@@ -130,12 +133,24 @@ module.exports = {
         'danger-bold': 'var(--bg-danger-bold)'
       },
       borderColor: {
+        interactive: 'var(--brd-interactive)',
         line: 'var(--brd-line)',
-        interactive: 'var(--brd-interactive)'
+        separator: 'var(--brd-separator)',
+        accent: 'var(--brd-accent)',
+        info: 'var(--brd-info)',
+        success: 'var(--brd-success)',
+        warning: 'var(--brd-warning)',
+        danger: 'var(--brd-danger)'
       },
       ringColor: {
+        interactive: 'var(--brd-interactive)',
         line: 'var(--brd-line)',
-        interactive: 'var(--brd-interactive)'
+        separator: 'var(--brd-separator)',
+        accent: 'var(--brd-accent)',
+        info: 'var(--brd-info)',
+        success: 'var(--brd-success)',
+        warning: 'var(--brd-warning)',
+        danger: 'var(--brd-danger)'
       },
       borderRadius: {
         DEFAULT: '',
@@ -147,7 +162,7 @@ module.exports = {
         '3xl': `var(--ui-radius-6)`
       },
       fontFamily: {
-        sans: ['var(--font-sans)', ...fontFamily.sans]
+        sans: ['Geliat', ...fontFamily.sans]
       },
       keyframes: {
         'accordion-down': {

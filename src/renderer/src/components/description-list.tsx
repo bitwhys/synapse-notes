@@ -16,31 +16,31 @@ export type DescriptionListProps = {}
 
 export const DescriptionList = ({}: DescriptionListProps) => {
   return (
-    <div className="overflow-hidden bg-white shadow-3 border-[0.5px] border-[--color-gray-a7] sm:rounded-lg max-w-2xl">
+    <div className="overflow-hidden bg-surface shadow-3 border-[0.5px] border-[--color-gray-a7] sm:rounded-lg max-w-2xl">
       <div className="px-4 py-6 sm:px-6">
         <h3 className="text-base/7 font-semibold text-primary">Applicant Information</h3>
         <p className="mt-1 max-w-2xl text-sm/6 text-secondary">Personal details and application.</p>
       </div>
-      <div className="border-t border-line">
-        <dl className="divide-y divide-line">
+      <div className="border-t border-interactive">
+        <dl className="divide-y divide-separator">
           <div className="px-4 py-6 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6">
-            <dt className="text-sm font-medium text-gray-900">Full name</dt>
+            <dt className="text-sm font-medium ">Full name</dt>
             <dd className="mt-1 text-sm/6 text-secondary sm:col-span-2 sm:mt-0">Margot Foster</dd>
           </div>
           <div className="px-4 py-6 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6">
-            <dt className="text-sm font-medium text-gray-900">Application for</dt>
+            <dt className="text-sm font-medium ">Application for</dt>
             <dd className="mt-1 text-sm/6 text-secondary sm:col-span-2 sm:mt-0">
               Backend Developer
             </dd>
           </div>
           <div className="px-4 py-6 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6">
-            <dt className="text-sm font-medium text-gray-900">Email address</dt>
+            <dt className="text-sm font-medium ">Email address</dt>
             <dd className="mt-1 text-sm/6 text-secondary sm:col-span-2 sm:mt-0">
               margotfoster@example.com
             </dd>
           </div>
           <div className="px-4 py-6 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6">
-            <dt className="text-sm font-medium text-gray-900">Salary expectation</dt>
+            <dt className="text-sm font-medium ">Salary expectation</dt>
             <dd className="mt-1 text-sm/6 text-secondary sm:col-span-2 sm:mt-0">$120,000</dd>
           </div>
           <div className="px-4 py-6 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6 select-text">
@@ -55,7 +55,10 @@ export const DescriptionList = ({}: DescriptionListProps) => {
           <div className="px-4 py-6 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6">
             <dt className="text-sm/6 font-medium text-primary">Attachments</dt>
             <dd className="mt-2 text-sm text-primary sm:col-span-2 sm:mt-0">
-              <ul role="list" className="divide-y divide-line rounded-md border border-line">
+              <ul
+                role="list"
+                className="divide-y divide-separator rounded-md border border-interactive"
+              >
                 <li className="flex items-center justify-between py-4 pl-4 pr-5 text-sm/6">
                   <div className="flex w-0 flex-1 items-center">
                     <PaperClipIcon aria-hidden="true" className="size-5 shrink-0 text-tertiary" />
@@ -65,7 +68,7 @@ export const DescriptionList = ({}: DescriptionListProps) => {
                     </div>
                   </div>
                   <div className="ml-4 shrink-0">
-                    <a href="#" className="font-medium text-accent hover:text-indigo-500">
+                    <a href="#" className="font-medium text-accent hover:text-[--color-accent-12]">
                       Download
                     </a>
                   </div>
@@ -81,7 +84,7 @@ export const DescriptionList = ({}: DescriptionListProps) => {
                     </div>
                   </div>
                   <div className="ml-4 shrink-0">
-                    <a href="#" className="font-medium text-accent hover:text-indigo-500">
+                    <a href="#" className="font-medium text-accent hover:text-[--color-accent-12]">
                       Download
                     </a>
                   </div>

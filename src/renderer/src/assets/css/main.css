@@ -5,6 +5,7 @@
 
 @layer base {
   body {
+    @apply text-primary;
     font-optical-sizing: auto;
     text-rendering: optimizeLegibility;
   }
