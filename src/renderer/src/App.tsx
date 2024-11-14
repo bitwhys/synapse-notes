@@ -1,40 +1,55 @@
-import { AppSidebar } from '@renderer/components/app-sidebar'
-import {
-  Breadcrumb,
-  BreadcrumbItem,
-  BreadcrumbLink,
-  BreadcrumbList,
-  BreadcrumbPage,
-  BreadcrumbSeparator
-} from '@renderer/components/ui/breadcrumb'
-import { Separator } from '@renderer/components/ui/separator'
-import { SidebarInset, SidebarProvider, SidebarTrigger } from '@renderer/components/ui/sidebar'
+import { cx } from '@renderer/lib/utils'
+
+import { DemoCookieSettings } from '@renderer/components/examples/cookie-settings'
+import { DemoCreateAccount } from '@renderer/components/examples/create-account'
+import { DemoDatePicker } from '@renderer/components/examples/date-picker'
+import { DemoGithub } from '@renderer/components/examples/github-card'
+import { DemoNotifications } from '@renderer/components/examples/notifications'
+import { DemoPaymentMethod } from '@renderer/components/examples/payment-method'
+import { DemoReportAnIssue } from '@renderer/components/examples/report-an-issue'
+import { DemoShareDocument } from '@renderer/components/examples/share-document'
+import { DemoTeamMembers } from '@renderer/components/examples/team-members'
+
+const DemoContainer = ({ className, ...props }: React.HTMLAttributes<HTMLDivElement>) => (
+  <div className={cx('flex items-center justify-center [&>div]:w-full', className)} {...props} />
+)
 
 export const App = () => (
-  <SidebarProvider>
-    <AppSidebar />
-    <SidebarInset>
-      <header className="flex h-16 shrink-0 items-center gap-2">
-        <div className="flex items-center gap-2 px-4">
-          <SidebarTrigger className="-ml-1" />
-          <Separator orientation="vertical" className="mr-2 h-4" />
-          <Breadcrumb>
-            <BreadcrumbList>
-              <BreadcrumbItem className="hidden md:block">
-                <BreadcrumbLink href="#">Building Your Application</BreadcrumbLink>
-              </BreadcrumbItem>
-              <BreadcrumbSeparator className="hidden md:block" />
-              <BreadcrumbItem>
-                <BreadcrumbPage>Data Fetching</BreadcrumbPage>
-              </BreadcrumbItem>
-            </BreadcrumbList>
-          </Breadcrumb>
-        </div>
-      </header>
-      <div className="flex flex-1 flex-col gap-4 px-4 py-10">
-        <div className="mx-auto h-24 w-full max-w-3xl rounded-xl bg-muted/50" />
-        <div className="mx-auto h-full w-full max-w-3xl rounded-xl bg-muted/50" />
+  <>
+    <div className="hidden items-start justify-center gap-6 rounded-lg p-8 md:grid lg:grid-cols-2 xl:grid-cols-3">
+      <div className="col-span-2 grid items-start gap-6 lg:col-span-1">
+        <DemoContainer>
+          <DemoCreateAccount />
+        </DemoContainer>
+        <DemoContainer>
+          <DemoPaymentMethod />
+        </DemoContainer>
       </div>
-    </SidebarInset>
-  </SidebarProvider>
+      <div className="col-span-2 grid items-start gap-6 lg:col-span-1">
+        <DemoContainer>
+          <DemoTeamMembers />
+        </DemoContainer>
+        <DemoContainer>
+          <DemoShareDocument />
+        </DemoContainer>
+        <DemoContainer>
+          <DemoDatePicker />
+        </DemoContainer>
+        <DemoContainer>
+          <DemoNotifications />
+        </DemoContainer>
+      </div>
+      <div className="col-span-2 grid items-start gap-6 lg:col-span-2 lg:grid-cols-2 xl:col-span-1 xl:grid-cols-1">
+        <DemoContainer>
+          <DemoReportAnIssue />
+        </DemoContainer>
+        <DemoContainer>
+          <DemoGithub />
+        </DemoContainer>
+        <DemoContainer>
+          <DemoCookieSettings />
+        </DemoContainer>
+      </div>
+    </div>
+  </>
 )

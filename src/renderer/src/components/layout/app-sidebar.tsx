@@ -12,10 +12,10 @@ import {
   TerminalWindow
 } from '@phosphor-icons/react'
 
-import { NavMain } from '@renderer/components/nav-main'
-import { NavProjects } from '@renderer/components/nav-projects'
-import { NavSecondary } from '@renderer/components/nav-secondary'
-import { NavUser } from '@renderer/components/nav-user'
+import { NavMain } from '@renderer/components/layout/nav-main'
+import { NavProjects } from '@renderer/components/layout/nav-projects'
+import { NavSecondary } from '@renderer/components/layout/nav-secondary'
+import { NavUser } from '@renderer/components/layout/nav-user'
 import {
   Sidebar,
   SidebarContent,
