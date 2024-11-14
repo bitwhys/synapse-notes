@@ -44,8 +44,7 @@
   --brd-danger: var(--color-danger-8);
 
   /* Page Backgrounds */
-  --pagebg-base: var(--bg-base);
-  --pagebg-soft: var(--bg-soft);
+  --pagebg-base: var(--bg-soft);
 
   /* -———————————————————————————————————————————- */
 
@@ -96,5 +95,4 @@
   --bg-plate: var(--color-gray-1);
   /* Page Backgrounds */
   --pagebg-base: var(--color-deep-black);
-  --pagebg-soft: var(--bg-soft);
 }

@@ -26,6 +26,7 @@ export const DemoShareDocument = () => (
     <CardContent>
       <div className="flex space-x-2">
         <Input value="http://example.com/link/to/document" readOnly />
+        {/* TODO: work on the secondary variant, looks weired in dark-mode */}
         <Button variant="secondary" className="shrink-0">
           Copy Link
         </Button>
@@ -42,7 +43,7 @@ export const DemoShareDocument = () => (
               </Avatar>
               <div>
                 <p className="text-sm font-medium leading-none">Olivia Martin</p>
-                <p className="text-sm text-muted-foreground">m@example.com</p>
+                <p className="text-sm text-secondary">m@example.com</p>
               </div>
             </div>
             <Select defaultValue="edit">
@@ -63,7 +64,7 @@ export const DemoShareDocument = () => (
               </Avatar>
               <div>
                 <p className="text-sm font-medium leading-none">Isabella Nguyen</p>
-                <p className="text-sm text-muted-foreground">b@example.com</p>
+                <p className="text-sm text-secondary">b@example.com</p>
               </div>
             </div>
             <Select defaultValue="view">
@@ -84,7 +85,7 @@ export const DemoShareDocument = () => (
               </Avatar>
               <div>
                 <p className="text-sm font-medium leading-none">Sofia Davis</p>
-                <p className="text-sm text-muted-foreground">p@example.com</p>
+                <p className="text-sm text-secondary">p@example.com</p>
               </div>
             </div>
             <Select defaultValue="view">

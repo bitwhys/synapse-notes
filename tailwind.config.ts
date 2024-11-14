@@ -66,38 +66,38 @@ module.exports = {
           a10: 'var(--color-accent-a10)',
           a11: 'var(--color-accent-a11)',
           a12: 'var(--color-accent-a12)',
-          DEFAULT: 'hsl(var(--accent))',
-          foreground: 'hsl(var(--accent-foreground))'
+          DEFAULT: 'var(--accent)',
+          foreground: 'var(--accent-foreground)'
         },
         'deep-black': 'var(--color-deep-black)',
-        border: 'hsl(var(--border))',
-        input: 'hsl(var(--input))',
-        ring: 'hsl(var(--ring))',
-        background: 'hsl(var(--background))',
-        foreground: 'hsl(var(--foreground))',
+        border: 'var(--border)',
+        input: 'var(--input)',
+        ring: 'var(--ring)',
+        background: 'var(--background)',
+        foreground: 'var(--foreground)',
         primary: {
-          DEFAULT: 'hsl(var(--primary))',
-          foreground: 'hsl(var(--primary-foreground))'
+          DEFAULT: 'var(--primary)',
+          foreground: 'var(--primary-foreground)'
         },
         secondary: {
-          DEFAULT: 'hsl(var(--secondary))',
-          foreground: 'hsl(var(--secondary-foreground))'
+          DEFAULT: 'var(--secondary)',
+          foreground: 'var(--secondary-foreground)'
         },
         destructive: {
-          DEFAULT: 'hsl(var(--destructive))',
-          foreground: 'hsl(var(--destructive-foreground))'
+          DEFAULT: 'var(--destructive)',
+          foreground: 'var(--destructive-foreground)'
         },
         muted: {
-          DEFAULT: 'hsl(var(--muted))',
-          foreground: 'hsl(var(--muted-foreground))'
+          DEFAULT: 'var(--muted)',
+          foreground: 'var(--muted-foreground)'
         },
         popover: {
-          DEFAULT: 'hsl(var(--popover))',
-          foreground: 'hsl(var(--popover-foreground))'
+          DEFAULT: 'var(--popover)',
+          foreground: 'var(--popover-foreground)'
         },
         card: {
-          DEFAULT: 'hsl(var(--card))',
-          foreground: 'hsl(var(--card-foreground))'
+          DEFAULT: 'var(--card)',
+          foreground: 'var(--card-foreground)'
         }
       },
       textColor: {
@@ -116,7 +116,7 @@ module.exports = {
       backgroundColor: {
         //   TODO: define utilities for --bg-* variables
         page: 'var(--pagebg-base)',
-        'page-soft': 'var(--pagebg-soft)',
+        // 'page-soft': 'var(--pagebg-soft)',
         base: 'var(--bg-base)',
         soft: 'var(--bg-soft)',
         plate: 'var(--bg-plate)',

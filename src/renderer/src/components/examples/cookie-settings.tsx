@@ -20,7 +20,7 @@ export const DemoCookieSettings = () => (
       <div className="flex items-center justify-between space-x-2">
         <Label htmlFor="necessary" className="flex flex-col space-y-1">
           <span>Strictly Necessary</span>
-          <span className="font-normal leading-snug text-muted-foreground">
+          <span className="font-normal leading-snug text-secondary">
             These cookies are essential in order to use the website and use its features.
           </span>
         </Label>
@@ -29,7 +29,7 @@ export const DemoCookieSettings = () => (
       <div className="flex items-center justify-between space-x-2">
         <Label htmlFor="functional" className="flex flex-col space-y-1">
           <span>Functional Cookies</span>
-          <span className="font-normal leading-snug text-muted-foreground">
+          <span className="font-normal leading-snug text-secondary">
             These cookies allow the website to provide personalized functionality.
           </span>
         </Label>
@@ -38,7 +38,7 @@ export const DemoCookieSettings = () => (
       <div className="flex items-center justify-between space-x-2">
         <Label htmlFor="performance" className="flex flex-col space-y-1">
           <span>Performance Cookies</span>
-          <span className="font-normal leading-snug text-muted-foreground">
+          <span className="font-normal leading-snug text-secondary">
             These cookies help to improve the performance of the website.
           </span>
         </Label>

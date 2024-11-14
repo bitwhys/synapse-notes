@@ -31,7 +31,7 @@ export const DemoGithub = () => (
       </div>
       <div className="flex items-center space-x-1 rounded-md bg-secondary text-secondary-foreground">
         <Button variant="secondary" className="px-3 shadow-none">
-          <Star />
+          <Star weight="duotone" className="text-warning" />
           Star
         </Button>
         <Separator orientation="vertical" className="h-[20px]" />
@@ -58,14 +58,14 @@ export const DemoGithub = () => (
     <CardContent>
       <div className="flex space-x-4 text-sm text-muted-foreground">
         <div className="flex items-center">
-          <Circle className="mr-1 h-3 w-3 fill-sky-400 text-sky-400" />
+          <Circle className="mr-1 h-3 w-3 fill-[--color-info-9] text-[--color-info-11]" />
           TypeScript
         </div>
-        <div className="flex items-center">
+        <div className="flex items-center text-warning">
           <Star className="mr-1 h-3 w-3" />
           20k
         </div>
-        <div>Updated April 2023</div>
+        <div className="text-secondary">Updated April 2023</div>
       </div>
     </CardContent>
   </Card>
