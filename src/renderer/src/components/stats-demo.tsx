@@ -1,5 +1,3 @@
-import { ArrowDownIcon, ArrowUpIcon } from '@heroicons/react/20/solid'
-import { CursorArrowRaysIcon, EnvelopeOpenIcon, UsersIcon } from '@heroicons/react/24/outline'
 import { TrendDown, TrendUp, CursorClick, EnvelopeOpen, Users } from '@phosphor-icons/react'
 import { cx } from '@renderer/lib/utils'
 
