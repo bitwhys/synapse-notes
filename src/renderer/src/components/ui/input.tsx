@@ -1,6 +1,6 @@
 import * as React from 'react'
 
-import { cx } from '@renderer//lib/utils'
+import { cx } from '@renderer/lib/utils'
 
 const Input = React.forwardRef<HTMLInputElement, React.ComponentProps<'input'>>(
   ({ className, type, ...props }, ref) => {
